@@ -1,0 +1,20 @@
+@import "navBarTop/navbar";
+@import "landing/home";
+@import "navBarTail/tail";
+@import "navBarTop/navbarMobile";
+@import "navBarTail/tailMobile";
+
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

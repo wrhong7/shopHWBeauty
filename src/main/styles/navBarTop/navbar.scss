@@ -1,0 +1,65 @@
+@media screen and (min-width: 1024px) {
+  .navbar-container {
+    max-width: 1024px;
+    margin-left: calc( 50vw - 512px );
+  }
+
+}
+
+.navbar-logo {
+   width: 20%;
+   font-size: 2vw;
+   font-weight: 600;
+   margin: 2vh;
+  float: left;
+}
+
+.site-menu-component {
+  float: right;
+  width: 70%;
+  margin: 3vh 2vh 2vh 0;
+  font-weight: 800;
+}
+
+.menu-component {
+  float: right;
+  width: 20%;
+  text-align: center;
+}
+
+.product-menu-component {
+  width: 98%;
+  overflow-y: auto;
+  margin: 1.5%;
+}
+
+.product-submenu {
+  width: auto;
+  float: left;
+  margin-right: 2vw;
+  font-weight: 600;
+}
+
+.social-icons {
+  width: auto;
+  overflow-y: auto;
+  float: right;
+  margin-right: 2%;
+}
+
+#in-store-deals-button {
+  color: red;
+}
+
+.navbar-top-social-icon-component {
+  font-size: 1.5vw;
+  color: #212729;
+}
+
+.subMenu-left-container {
+  width: auto;
+  overflow-y: auto;
+  float: left;
+  margin-top: 0.5%;
+  margin-left: 1%;
+}
