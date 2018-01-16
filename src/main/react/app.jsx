@@ -5,6 +5,7 @@ import "../styles/main.scss";
 import Home from "./components/home";
 import NavBar from "./components/navbar";
 import Tail from "./components/tail";
+import storeLocator from "./components/storelocator";
 
 export default function App() {
 
@@ -17,6 +18,7 @@ export default function App() {
       <NavBar/>
       <Switch>
         <Route exact path="/" component={getHome}/>
+        <Route path="/storeLocator" component={storeLocator}/>
       </Switch>
       <Tail/>
     </div>

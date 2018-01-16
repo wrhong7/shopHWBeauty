@@ -19,7 +19,9 @@ export default class NavBar extends React.Component {
     return <div className="site-menu-component">
       <div className="menu-component">Sign In</div>
       <div className="menu-component">Shopping Cart (0)</div>
-      <div className="menu-component">Store Locator</div>
+      <a href="/storeLocator"
+        className="menu-component"
+      >Store Locator</a>
     </div>;
   }
 
@@ -27,9 +29,9 @@ export default class NavBar extends React.Component {
     return <div className="product-menu-component">
       <div className="subMenu-left-container">
         <div className="product-submenu">Cosmetics</div>
-        <div className="product-submenu">Virgin Hair</div>
+        <div className="product-submenu">Hair Products</div>
         <div className="product-submenu">Wigs</div>
-        <div className="product-submenu">Special Promotions</div>
+        <div className="product-submenu">Sales</div>
         <div className="product-submenu" id="in-store-deals-button">In Store Deals</div>
       </div>
       <div className="social-icons">

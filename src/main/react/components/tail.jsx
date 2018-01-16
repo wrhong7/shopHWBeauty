@@ -3,12 +3,11 @@ import {Link} from 'react-router-dom';
 
 export default function Tail() {
 
-
   const getLogo = () => {
     return <div className="navbar-tail-logo-container">
       <div className="navbar-tail-logo">HW Beauty</div>
       <div className="navbar-date" id="navbar-date-mobile">321 S 1st St, Amite City, LA</div>
-      <div class="navbar-date">(985) 747-0483</div>
+      <div className="navbar-date">(985) 747-0483</div>
     </div>
   };
 

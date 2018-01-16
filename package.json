@@ -1,5 +1,5 @@
 {
-  "name": "namibia-eurasia-tourism",
+  "name": "hw-beauty-store",
   "version": "1.0.0",
   "description": "Namibia travel website",
   "main": "gulpfile.js",
@@ -32,9 +32,8 @@
     "webpack-stream": "^4.0.0"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ecezalp/namibiaEurasiaTourism.git"
+
   },
-  "author": "Ece Ozalp",
+  "author": "WJ Hong",
   "license": "ISC"
 }
