@@ -1,3 +1,71 @@
 .storeImage {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5vh;
   background-color: red;
+  position: relative;
+}
+
+.location-description {
+  color: #808284;
+  font-weight: 600;
+  width: 40%;
+  margin-left: 25%;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  top: -15vh;
+  background-color: white;
+  padding: 5%;
+  line-height: 1.5;
+}
+
+.store-name-number {
+  font-size: 4vh;
+  margin-bottom: 1vh;
+}
+
+.store-city-name {
+  margin-bottom: 1vh;
+}
+
+.store-description-middle {
+  margin: 2vh 0 2vh 0;
+}
+
+.store-description-bottom {
+  width: 100%;
+  overflow-y: auto;
+  margin-top: 1vh;
+  line-height: 1.5;
+}
+
+.store-description-bottom-left {
+  float: left;
+  font-weight: 600;
+  width: 50%;
+}
+
+.store-description-bottom-right {
+  float: left;
+  font-weight: 600;
+  width: 50%;
+}
+
+.fetch-map {
+  text-decoration: underline;
+  color: #808284;
+}
+
+.store-phone-number {
+  width: 100%;
+  overflow-y: auto;
+  padding-top: 1vh;
+}
+
+@media screen and (min-width: 1024px) {
+  .storeContainer {
+    max-width: 1024px;
+    margin-left: calc( 50vw - 512px );
+  }
 }
