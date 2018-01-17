@@ -1,6 +1,8 @@
 import React from "react";
 import {Link, Route} from 'react-router-dom';
-import product1 from '../../resources/featureditem.jpg';
+import featuredItems from '../../resources/featureditem.jpg';
+import product1 from "../../resources/product1.jpg"
+import product2 from "../../resources/product2.png"
 
 export default class Home extends React.Component {
 
@@ -13,8 +15,12 @@ export default class Home extends React.Component {
 
   }
 
-  getImageHelper() {
-    return Object.assign({}, {prettyGirlPic: product1})
+  getFeaturedItems() {
+    return Object.assign({}, {featuredItemPic: featuredItems})
+  }
+
+  getNewArrivalItems() {
+    return Object.assign({}, {newArrival1: product1, description: "Natural Blond Hair"}, {newArrival2: product2} )
   }
 
 
@@ -26,7 +32,10 @@ export default class Home extends React.Component {
       <div className="home-featured-item-subheader">
         Eyeliner + Foundation + Eyeshadow
       </div>
-      <img className="home-featured-item" src={this.getImageHelper().prettyGirlPic}/>
+      <img className="home-featured-item" src={this.getFeaturedItems().featuredItemPic}/>
+
+      <img className="xyz" src={this.getNewArrivalItems().newArrival1} />
+      {this.getNewArrivalItems().description}
     </div>;
   }
 }
